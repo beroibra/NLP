@@ -1,0 +1,450 @@
+countvectorizer_ngrams_2_2
+-----------------
+sms.pickle
+Test Loss: 0.344 | Test Acc: 96.90%
+              precision    recall  f1-score   support
+
+         ham       0.96      1.00      0.98       966
+        spam       1.00      0.76      0.86       149
+
+    accuracy                           0.97      1115
+   macro avg       0.98      0.88      0.92      1115
+weighted avg       0.97      0.97      0.97      1115
+
+
+-----------------
+preprocessing.pickle
+Test Loss: 0.349 | Test Acc: 96.48%
+              precision    recall  f1-score   support
+
+         ham       0.96      1.00      0.98       966
+        spam       1.00      0.76      0.86       149
+
+    accuracy                           0.97      1115
+   macro avg       0.98      0.88      0.92      1115
+weighted avg       0.97      0.97      0.97      1115
+
+
+-----------------
+swr.pickle
+Test Loss: 0.355 | Test Acc: 95.79%
+              precision    recall  f1-score   support
+
+         ham       0.96      1.00      0.98       966
+        spam       1.00      0.71      0.83       149
+
+    accuracy                           0.96      1115
+   macro avg       0.98      0.86      0.90      1115
+weighted avg       0.96      0.96      0.96      1115
+
+
+-----------------
+freq_rare_word_rm.pickle
+Test Loss: 0.351 | Test Acc: 96.14%
+              precision    recall  f1-score   support
+
+         ham       0.96      1.00      0.98       966
+        spam       1.00      0.70      0.83       149
+
+    accuracy                           0.96      1115
+   macro avg       0.98      0.85      0.90      1115
+weighted avg       0.96      0.96      0.96      1115
+
+
+-----------------
+stemmed.pickle
+Test Loss: 0.348 | Test Acc: 96.51%
+              precision    recall  f1-score   support
+
+         ham       0.96      1.00      0.98       966
+        spam       1.00      0.72      0.84       149
+
+    accuracy                           0.96      1115
+   macro avg       0.98      0.86      0.91      1115
+weighted avg       0.96      0.96      0.96      1115
+
+
+-----------------
+lemmatized.pickle
+Test Loss: 0.350 | Test Acc: 96.29%
+              precision    recall  f1-score   support
+
+         ham       0.96      1.00      0.98       966
+        spam       1.00      0.72      0.84       149
+
+    accuracy                           0.96      1115
+   macro avg       0.98      0.86      0.91      1115
+weighted avg       0.96      0.96      0.96      1115
+
+
+-----------------
+tfidfvectorizer
+-----------------
+sms.pickle
+Test Loss: 0.345 | Test Acc: 98.14%
+              precision    recall  f1-score   support
+
+         ham       0.98      1.00      0.99       966
+        spam       1.00      0.85      0.92       149
+
+    accuracy                           0.98      1115
+   macro avg       0.99      0.93      0.95      1115
+weighted avg       0.98      0.98      0.98      1115
+
+
+-----------------
+preprocessing.pickle
+Test Loss: 0.342 | Test Acc: 97.84%
+              precision    recall  f1-score   support
+
+         ham       0.98      1.00      0.99       966
+        spam       1.00      0.84      0.91       149
+
+    accuracy                           0.98      1115
+   macro avg       0.99      0.92      0.95      1115
+weighted avg       0.98      0.98      0.98      1115
+
+
+-----------------
+swr.pickle
+Test Loss: 0.357 | Test Acc: 97.03%
+              precision    recall  f1-score   support
+
+         ham       0.97      1.00      0.99       966
+        spam       0.99      0.81      0.89       149
+
+    accuracy                           0.97      1115
+   macro avg       0.98      0.91      0.94      1115
+weighted avg       0.97      0.97      0.97      1115
+
+
+-----------------
+freq_rare_word_rm.pickle
+Test Loss: 0.355 | Test Acc: 97.40%
+              precision    recall  f1-score   support
+
+         ham       0.97      1.00      0.99       966
+        spam       0.99      0.83      0.91       149
+
+    accuracy                           0.98      1115
+   macro avg       0.98      0.92      0.95      1115
+weighted avg       0.98      0.98      0.98      1115
+
+
+-----------------
+stemmed.pickle
+Test Loss: 0.354 | Test Acc: 97.61%
+              precision    recall  f1-score   support
+
+         ham       0.97      1.00      0.99       966
+        spam       0.99      0.83      0.90       149
+
+    accuracy                           0.98      1115
+   macro avg       0.98      0.91      0.94      1115
+weighted avg       0.98      0.98      0.97      1115
+
+
+-----------------
+lemmatized.pickle
+Test Loss: 0.352 | Test Acc: 97.32%
+              precision    recall  f1-score   support
+
+         ham       0.97      1.00      0.99       966
+        spam       0.99      0.83      0.90       149
+
+    accuracy                           0.98      1115
+   macro avg       0.98      0.91      0.94      1115
+weighted avg       0.98      0.98      0.97      1115
+
+
+-----------------
+fasttext_vec
+-----------------
+sms.pickle
+Test Loss: 0.398 | Test Acc: 86.80%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+preprocessing.pickle
+Test Loss: 0.435 | Test Acc: 87.08%
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+-----------------
+swr.pickle
+Test Loss: 0.394 | Test Acc: 92.13%
+              precision    recall  f1-score   support
+
+         ham       0.92      1.00      0.96       966
+        spam       0.98      0.42      0.58       149
+
+    accuracy                           0.92      1115
+   macro avg       0.95      0.71      0.77      1115
+weighted avg       0.93      0.92      0.91      1115
+
+
+-----------------
+freq_rare_word_rm.pickle
+Test Loss: 0.402 | Test Acc: 86.80%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+stemmed.pickle
+Test Loss: 0.397 | Test Acc: 90.98%
+              precision    recall  f1-score   support
+
+         ham       0.91      1.00      0.95       966
+        spam       0.98      0.33      0.49       149
+
+    accuracy                           0.91      1115
+   macro avg       0.94      0.66      0.72      1115
+weighted avg       0.92      0.91      0.89      1115
+
+
+-----------------
+lemmatized.pickle
+Test Loss: 0.399 | Test Acc: 87.38%
+              precision    recall  f1-score   support
+
+         ham       0.88      1.00      0.93       966
+        spam       1.00      0.07      0.14       149
+
+    accuracy                           0.88      1115
+   macro avg       0.94      0.54      0.54      1115
+weighted avg       0.89      0.88      0.83      1115
+
+
+-----------------
+glove_vec
+-----------------
+sms.pickle
+Test Loss: 0.348 | Test Acc: 96.98%
+              precision    recall  f1-score   support
+
+         ham       0.97      0.99      0.98       966
+        spam       0.93      0.83      0.88       149
+
+    accuracy                           0.97      1115
+   macro avg       0.95      0.91      0.93      1115
+weighted avg       0.97      0.97      0.97      1115
+
+
+-----------------
+preprocessing.pickle
+Test Loss: 0.346 | Test Acc: 96.86%
+              precision    recall  f1-score   support
+
+         ham       0.97      0.99      0.98       966
+        spam       0.95      0.83      0.88       149
+
+    accuracy                           0.97      1115
+   macro avg       0.96      0.91      0.93      1115
+weighted avg       0.97      0.97      0.97      1115
+
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_plot/confusion_matrix.py:129: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig, ax = plt.subplots()
+
+-----------------
+swr.pickle
+Test Loss: 0.347 | Test Acc: 97.23%
+              precision    recall  f1-score   support
+
+         ham       0.97      0.99      0.98       966
+        spam       0.96      0.83      0.89       149
+
+    accuracy                           0.97      1115
+   macro avg       0.97      0.91      0.94      1115
+weighted avg       0.97      0.97      0.97      1115
+
+
+-----------------
+freq_rare_word_rm.pickle
+Test Loss: 0.347 | Test Acc: 96.70%
+              precision    recall  f1-score   support
+
+         ham       0.97      0.99      0.98       966
+        spam       0.93      0.83      0.88       149
+
+    accuracy                           0.97      1115
+   macro avg       0.95      0.91      0.93      1115
+weighted avg       0.97      0.97      0.97      1115
+
+
+-----------------
+stemmed.pickle
+Test Loss: 0.348 | Test Acc: 97.00%
+              precision    recall  f1-score   support
+
+         ham       0.97      0.99      0.98       966
+        spam       0.96      0.81      0.88       149
+
+    accuracy                           0.97      1115
+   macro avg       0.97      0.90      0.93      1115
+weighted avg       0.97      0.97      0.97      1115
+
+
+-----------------
+lemmatized.pickle
+Test Loss: 0.349 | Test Acc: 96.78%
+              precision    recall  f1-score   support
+
+         ham       0.98      0.99      0.98       966
+        spam       0.92      0.85      0.88       149
+
+    accuracy                           0.97      1115
+   macro avg       0.95      0.92      0.93      1115
+weighted avg       0.97      0.97      0.97      1115
+
+
+-----------------
+albert_vec
+-----------------
+sms.pickle
+Test Loss: 0.327 | Test Acc: 98.52%
+              precision    recall  f1-score   support
+
+         ham       0.99      0.99      0.99       966
+        spam       0.93      0.95      0.94       149
+
+    accuracy                           0.98      1115
+   macro avg       0.96      0.97      0.96      1115
+weighted avg       0.98      0.98      0.98      1115
+
+
+-----------------
+preprocessing.pickle
+Test Loss: 0.332 | Test Acc: 98.30%
+              precision    recall  f1-score   support
+
+         ham       0.99      0.99      0.99       966
+        spam       0.93      0.93      0.93       149
+
+    accuracy                           0.98      1115
+   macro avg       0.96      0.96      0.96      1115
+weighted avg       0.98      0.98      0.98      1115
+
+
+-----------------
+swr.pickle
+Test Loss: 0.341 | Test Acc: 96.86%
+              precision    recall  f1-score   support
+
+         ham       0.98      0.99      0.98       966
+        spam       0.91      0.87      0.89       149
+
+    accuracy                           0.97      1115
+   macro avg       0.94      0.93      0.93      1115
+weighted avg       0.97      0.97      0.97      1115
+
+
+-----------------
+freq_rare_word_rm.pickle
+Test Loss: 0.341 | Test Acc: 97.15%
+              precision    recall  f1-score   support
+
+         ham       0.98      0.99      0.98       966
+        spam       0.91      0.88      0.89       149
+
+    accuracy                           0.97      1115
+   macro avg       0.95      0.93      0.94      1115
+weighted avg       0.97      0.97      0.97      1115
+
+
+-----------------
+stemmed.pickle
+Test Loss: 0.445 | Test Acc: 86.80%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+lemmatized.pickle
+Test Loss: 0.343 | Test Acc: 96.86%
+              precision    recall  f1-score   support
+
+         ham       0.99      0.97      0.98       966
+        spam       0.85      0.95      0.90       149
+
+    accuracy                           0.97      1115
+   macro avg       0.92      0.96      0.94      1115
+weighted avg       0.97      0.97      0.97      1115
+
+
+-----------------

@@ -1,0 +1,12 @@
+Mean distance Matrix before Fine-tuning:
+Cosine distance between classes 0 and 0: 0.8070776462554932
+Cosine distance between classes 0 and 1: 0.7943176627159119
+Cosine distance between classes 1 and 1: 0.8585159182548523
+-----------------------------
+
+
+Mean distance Matrix after Fine-tuning:
+
+Cosine distance between classes 0 and 0: 0.799735426902771
+Cosine distance between classes 0 and 1: 0.05375872179865837
+Cosine distance between classes 1 and 1: 0.8689507246017456

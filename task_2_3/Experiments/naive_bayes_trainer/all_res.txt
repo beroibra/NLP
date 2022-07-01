@@ -1,0 +1,340 @@
+countvectorizer_ngrams_2_2
+-----------------
+sms.pickle
+              precision    recall  f1-score   support
+
+         ham       0.98      0.90      0.94       966
+        spam       0.57      0.91      0.70       149
+
+    accuracy                           0.90      1115
+   macro avg       0.78      0.90      0.82      1115
+weighted avg       0.93      0.90      0.91      1115
+
+-----------------
+preprocessing.pickle
+              precision    recall  f1-score   support
+
+         ham       0.98      0.89      0.93       966
+        spam       0.55      0.90      0.68       149
+
+    accuracy                           0.89      1115
+   macro avg       0.77      0.89      0.81      1115
+weighted avg       0.92      0.89      0.90      1115
+
+-----------------
+swr.pickle
+              precision    recall  f1-score   support
+
+         ham       0.99      0.60      0.75       966
+        spam       0.28      0.97      0.43       149
+
+    accuracy                           0.65      1115
+   macro avg       0.63      0.79      0.59      1115
+weighted avg       0.90      0.65      0.71      1115
+
+-----------------
+freq_rare_word_rm.pickle
+              precision    recall  f1-score   support
+
+         ham       0.99      0.60      0.75       966
+        spam       0.28      0.97      0.43       149
+
+    accuracy                           0.65      1115
+   macro avg       0.63      0.79      0.59      1115
+weighted avg       0.90      0.65      0.71      1115
+
+-----------------
+stemmed.pickle
+              precision    recall  f1-score   support
+
+         ham       0.99      0.63      0.77       966
+        spam       0.29      0.97      0.44       149
+
+    accuracy                           0.67      1115
+   macro avg       0.64      0.80      0.60      1115
+weighted avg       0.90      0.67      0.72      1115
+
+-----------------
+lemmatized.pickle
+              precision    recall  f1-score   support
+
+         ham       0.99      0.61      0.76       966
+        spam       0.28      0.98      0.44       149
+
+    accuracy                           0.66      1115
+   macro avg       0.64      0.80      0.60      1115
+weighted avg       0.90      0.66      0.72      1115
+
+-----------------
+tfidfvectorizer
+-----------------
+sms.pickle
+              precision    recall  f1-score   support
+
+         ham       0.98      0.89      0.93       966
+        spam       0.56      0.89      0.69       149
+
+    accuracy                           0.89      1115
+   macro avg       0.77      0.89      0.81      1115
+weighted avg       0.92      0.89      0.90      1115
+
+-----------------
+preprocessing.pickle
+              precision    recall  f1-score   support
+
+         ham       0.98      0.89      0.93       966
+        spam       0.54      0.86      0.66       149
+
+    accuracy                           0.88      1115
+   macro avg       0.76      0.87      0.80      1115
+weighted avg       0.92      0.88      0.89      1115
+
+-----------------
+swr.pickle
+              precision    recall  f1-score   support
+
+         ham       0.98      0.88      0.93       966
+        spam       0.52      0.87      0.65       149
+
+    accuracy                           0.88      1115
+   macro avg       0.75      0.87      0.79      1115
+weighted avg       0.92      0.88      0.89      1115
+
+-----------------
+freq_rare_word_rm.pickle
+              precision    recall  f1-score   support
+
+         ham       0.98      0.88      0.93       966
+        spam       0.52      0.87      0.65       149
+
+    accuracy                           0.88      1115
+   macro avg       0.75      0.87      0.79      1115
+weighted avg       0.92      0.88      0.89      1115
+
+-----------------
+stemmed.pickle
+              precision    recall  f1-score   support
+
+         ham       0.98      0.86      0.91       966
+        spam       0.49      0.89      0.63       149
+
+    accuracy                           0.86      1115
+   macro avg       0.73      0.87      0.77      1115
+weighted avg       0.91      0.86      0.88      1115
+
+-----------------
+lemmatized.pickle
+              precision    recall  f1-score   support
+
+         ham       0.98      0.88      0.92       966
+        spam       0.52      0.86      0.65       149
+
+    accuracy                           0.87      1115
+   macro avg       0.75      0.87      0.79      1115
+weighted avg       0.91      0.87      0.89      1115
+
+-----------------
+fasttext_vec
+-----------------
+sms.pickle
+              precision    recall  f1-score   support
+
+         ham       0.99      0.89      0.94       966
+        spam       0.56      0.93      0.70       149
+
+    accuracy                           0.89      1115
+   macro avg       0.78      0.91      0.82      1115
+weighted avg       0.93      0.89      0.90      1115
+
+-----------------
+preprocessing.pickle
+              precision    recall  f1-score   support
+
+         ham       0.99      0.77      0.86       966
+        spam       0.38      0.93      0.54       149
+
+    accuracy                           0.79      1115
+   macro avg       0.69      0.85      0.70      1115
+weighted avg       0.91      0.79      0.82      1115
+
+-----------------
+swr.pickle
+              precision    recall  f1-score   support
+
+         ham       0.98      0.80      0.88       966
+        spam       0.42      0.91      0.57       149
+
+    accuracy                           0.82      1115
+   macro avg       0.70      0.86      0.73      1115
+weighted avg       0.91      0.82      0.84      1115
+
+-----------------
+freq_rare_word_rm.pickle
+              precision    recall  f1-score   support
+
+         ham       0.98      0.80      0.88       966
+        spam       0.42      0.91      0.57       149
+
+    accuracy                           0.82      1115
+   macro avg       0.70      0.86      0.73      1115
+weighted avg       0.91      0.82      0.84      1115
+
+-----------------
+stemmed.pickle
+              precision    recall  f1-score   support
+
+         ham       0.98      0.78      0.87       966
+        spam       0.39      0.89      0.54       149
+
+    accuracy                           0.80      1115
+   macro avg       0.68      0.84      0.70      1115
+weighted avg       0.90      0.80      0.83      1115
+
+-----------------
+lemmatized.pickle
+              precision    recall  f1-score   support
+
+         ham       0.98      0.80      0.88       966
+        spam       0.41      0.90      0.57       149
+
+    accuracy                           0.82      1115
+   macro avg       0.70      0.85      0.72      1115
+weighted avg       0.91      0.82      0.84      1115
+
+-----------------
+glove_vec
+-----------------
+sms.pickle
+              precision    recall  f1-score   support
+
+         ham       0.99      0.78      0.87       966
+        spam       0.40      0.93      0.56       149
+
+    accuracy                           0.80      1115
+   macro avg       0.69      0.85      0.71      1115
+weighted avg       0.91      0.80      0.83      1115
+
+-----------------
+preprocessing.pickle
+              precision    recall  f1-score   support
+
+         ham       0.98      0.80      0.88       966
+        spam       0.40      0.89      0.56       149
+
+    accuracy                           0.81      1115
+   macro avg       0.69      0.84      0.72      1115
+weighted avg       0.90      0.81      0.84      1115
+
+-----------------
+swr.pickle
+              precision    recall  f1-score   support
+
+         ham       0.98      0.80      0.88       966
+        spam       0.40      0.89      0.56       149
+
+    accuracy                           0.81      1115
+   macro avg       0.69      0.84      0.72      1115
+weighted avg       0.90      0.81      0.84      1115
+
+-----------------
+freq_rare_word_rm.pickle
+              precision    recall  f1-score   support
+
+         ham       0.98      0.80      0.88       966
+        spam       0.40      0.89      0.56       149
+
+    accuracy                           0.81      1115
+   macro avg       0.69      0.84      0.72      1115
+weighted avg       0.90      0.81      0.84      1115
+
+-----------------
+stemmed.pickle
+              precision    recall  f1-score   support
+
+         ham       0.98      0.75      0.85       966
+        spam       0.36      0.89      0.51       149
+
+    accuracy                           0.77      1115
+   macro avg       0.67      0.82      0.68      1115
+weighted avg       0.90      0.77      0.81      1115
+
+-----------------
+lemmatized.pickle
+              precision    recall  f1-score   support
+
+         ham       0.98      0.79      0.88       966
+        spam       0.40      0.90      0.55       149
+
+    accuracy                           0.81      1115
+   macro avg       0.69      0.85      0.71      1115
+weighted avg       0.90      0.81      0.83      1115
+
+-----------------
+albert_vec
+-----------------
+sms.pickle
+              precision    recall  f1-score   support
+
+         ham       0.99      0.93      0.96       966
+        spam       0.69      0.95      0.80       149
+
+    accuracy                           0.94      1115
+   macro avg       0.84      0.94      0.88      1115
+weighted avg       0.95      0.94      0.94      1115
+
+-----------------
+preprocessing.pickle
+              precision    recall  f1-score   support
+
+         ham       0.98      0.94      0.96       966
+        spam       0.68      0.89      0.77       149
+
+    accuracy                           0.93      1115
+   macro avg       0.83      0.91      0.86      1115
+weighted avg       0.94      0.93      0.93      1115
+
+-----------------
+swr.pickle
+              precision    recall  f1-score   support
+
+         ham       0.99      0.88      0.93       966
+        spam       0.54      0.93      0.69       149
+
+    accuracy                           0.89      1115
+   macro avg       0.77      0.91      0.81      1115
+weighted avg       0.93      0.89      0.90      1115
+
+-----------------
+freq_rare_word_rm.pickle
+              precision    recall  f1-score   support
+
+         ham       0.99      0.88      0.93       966
+        spam       0.55      0.93      0.69       149
+
+    accuracy                           0.89      1115
+   macro avg       0.77      0.91      0.81      1115
+weighted avg       0.93      0.89      0.90      1115
+
+-----------------
+stemmed.pickle
+              precision    recall  f1-score   support
+
+         ham       0.99      0.87      0.93       966
+        spam       0.53      0.93      0.67       149
+
+    accuracy                           0.88      1115
+   macro avg       0.76      0.90      0.80      1115
+weighted avg       0.93      0.88      0.89      1115
+
+-----------------
+lemmatized.pickle
+              precision    recall  f1-score   support
+
+         ham       0.99      0.89      0.94       966
+        spam       0.56      0.94      0.70       149
+
+    accuracy                           0.89      1115
+   macro avg       0.77      0.91      0.82      1115
+weighted avg       0.93      0.89      0.90      1115
+
+-----------------

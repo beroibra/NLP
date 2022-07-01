@@ -1,0 +1,90 @@
+1 fold:
+Results:
+- F-score (micro) 0.9919
+- F-score (macro) 0.9822
+- Accuracy 0.9919
+
+By class:
+              precision    recall  f1-score   support
+
+         ham     0.9918    0.9990    0.9954       966
+        spam     0.9930    0.9463    0.9691       149
+
+    accuracy                         0.9919      1115
+   macro avg     0.9924    0.9726    0.9822      1115
+weighted avg     0.9919    0.9919    0.9918      1115
+
+
+2 fold:
+Results:
+- F-score (micro) 0.9955
+- F-score (macro) 0.9903
+- Accuracy 0.9955
+
+By class:
+              precision    recall  f1-score   support
+
+         ham     0.9969    0.9979    0.9974       966
+        spam     0.9865    0.9799    0.9832       149
+
+    accuracy                         0.9955      1115
+   macro avg     0.9917    0.9889    0.9903      1115
+weighted avg     0.9955    0.9955    0.9955      1115
+
+3 fold:
+Results:
+- F-score (micro) 0.9901
+- F-score (macro) 0.9786
+- Accuracy 0.9901
+
+By class:
+              precision    recall  f1-score   support
+
+         ham     0.9928    0.9959    0.9943       965
+        spam     0.9728    0.9533    0.9630       150
+
+    accuracy                         0.9901      1115
+   macro avg     0.9828    0.9746    0.9786      1115
+weighted avg     0.9901    0.9901    0.9901      1115
+
+4 fold:
+Results:
+- F-score (micro) 0.9928
+- F-score (macro) 0.9844
+- Accuracy 0.9928
+
+By class:
+              precision    recall  f1-score   support
+
+         ham     0.9938    0.9979    0.9959       965
+        spam     0.9863    0.9600    0.9730       150
+
+    accuracy                         0.9928      1115
+   macro avg     0.9901    0.9790    0.9844      1115
+weighted avg     0.9928    0.9928    0.9928      1115
+
+5 fold:
+Results:
+- F-score (micro) 0.9946
+- F-score (macro) 0.9882
+- Accuracy 0.9946
+
+By class:
+              precision    recall  f1-score   support
+
+         ham     0.9948    0.9990    0.9969       965
+        spam     0.9931    0.9664    0.9796       149
+
+    accuracy                         0.9946      1114
+   macro avg     0.9940    0.9827    0.9882      1114
+weighted avg     0.9946    0.9946    0.9946      1114
+
+
+avg fold:
+- Accuracy 0,99298
+
+By class:
+              precision    recall  f1-score   support
+
+         ham     0,99402    0,99794    0,99598       965
+        spam     0,98634    0,96118    0,97358       149
