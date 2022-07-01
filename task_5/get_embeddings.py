@@ -76,9 +76,9 @@ def get_distance_matrix(class_embeddings):
 df = pd.read_json("../preprocessed_data.json")
 
 
-embeddings_bef_ft = get_embeddings(df, "distilbert-base-cased", fine_tuned=False)
+embeddings_bef_ft = get_embeddings(df, "bert-base-cased", fine_tuned=False)
 
-embeddings_aft_ft = get_embeddings(df, "./ft_distilbert_base_cased.pt", fine_tuned=True)
+embeddings_aft_ft = get_embeddings(df, "./ft_bert_base_cased_model.pt", fine_tuned=True)
 
 print("Mean distance Matrix before Fine-tuning:\n")
 get_distance_matrix(embeddings_bef_ft)
