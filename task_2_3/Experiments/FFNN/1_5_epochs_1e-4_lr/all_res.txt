@@ -1,0 +1,654 @@
+countvectorizer_ngrams_2_2
+-----------------
+sms.pickle
+Test Loss: 0.394 | Test Acc: 95.48%
+              precision    recall  f1-score   support
+
+         ham       0.95      1.00      0.97       966
+        spam       1.00      0.62      0.77       149
+
+    accuracy                           0.95      1115
+   macro avg       0.97      0.81      0.87      1115
+weighted avg       0.95      0.95      0.94      1115
+
+
+-----------------
+preprocessing.pickle
+Test Loss: 0.409 | Test Acc: 93.13%
+              precision    recall  f1-score   support
+
+         ham       0.93      1.00      0.96       966
+        spam       1.00      0.48      0.65       149
+
+    accuracy                           0.93      1115
+   macro avg       0.96      0.74      0.81      1115
+weighted avg       0.94      0.93      0.92      1115
+
+
+-----------------
+swr.pickle
+Test Loss: 0.426 | Test Acc: 86.80%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+freq_rare_word_rm.pickle
+Test Loss: 0.434 | Test Acc: 86.09%
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+-----------------
+stemmed.pickle
+Test Loss: 0.432 | Test Acc: 86.69%
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       1.00      0.03      0.05       149
+
+    accuracy                           0.87      1115
+   macro avg       0.93      0.51      0.49      1115
+weighted avg       0.89      0.87      0.81      1115
+
+
+-----------------
+lemmatized.pickle
+Test Loss: 0.437 | Test Acc: 87.83%
+              precision    recall  f1-score   support
+
+         ham       0.88      1.00      0.94       966
+        spam       1.00      0.10      0.18       149
+
+    accuracy                           0.88      1115
+   macro avg       0.94      0.55      0.56      1115
+weighted avg       0.89      0.88      0.83      1115
+
+
+-----------------
+tfidfvectorizer
+-----------------
+sms.pickle
+Test Loss: 0.426 | Test Acc: 86.09%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+preprocessing.pickle
+Test Loss: 0.430 | Test Acc: 86.38%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+swr.pickle
+Test Loss: 0.433 | Test Acc: 87.51%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+freq_rare_word_rm.pickle
+Test Loss: 0.443 | Test Acc: 85.67%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+stemmed.pickle
+Test Loss: 0.426 | Test Acc: 86.80%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+lemmatized.pickle
+Test Loss: 0.431 | Test Acc: 86.23%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+fasttext_vec
+-----------------
+sms.pickle
+Test Loss: 0.438 | Test Acc: 87.51%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+preprocessing.pickle
+Test Loss: 0.448 | Test Acc: 86.52%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+swr.pickle
+Test Loss: 0.447 | Test Acc: 86.66%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+freq_rare_word_rm.pickle
+Test Loss: 0.444 | Test Acc: 86.94%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+stemmed.pickle
+Test Loss: 0.444 | Test Acc: 86.94%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+lemmatized.pickle
+Test Loss: 0.448 | Test Acc: 86.52%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+glove_vec
+-----------------
+sms.pickle
+Test Loss: 0.429 | Test Acc: 86.66%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+preprocessing.pickle
+Test Loss: 0.420 | Test Acc: 87.23%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_plot/confusion_matrix.py:129: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig, ax = plt.subplots()
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+swr.pickle
+Test Loss: 0.424 | Test Acc: 87.08%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+freq_rare_word_rm.pickle
+Test Loss: 0.423 | Test Acc: 86.66%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+stemmed.pickle
+Test Loss: 0.424 | Test Acc: 86.80%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+lemmatized.pickle
+Test Loss: 0.421 | Test Acc: 86.66%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+albert_vec
+-----------------
+sms.pickle
+Test Loss: 0.334 | Test Acc: 97.89%
+              precision    recall  f1-score   support
+
+         ham       0.98      0.99      0.99       966
+        spam       0.92      0.90      0.91       149
+
+    accuracy                           0.98      1115
+   macro avg       0.95      0.94      0.95      1115
+weighted avg       0.98      0.98      0.98      1115
+
+
+-----------------
+preprocessing.pickle
+Test Loss: 0.346 | Test Acc: 96.81%
+              precision    recall  f1-score   support
+
+         ham       0.98      0.98      0.98       966
+        spam       0.88      0.85      0.87       149
+
+    accuracy                           0.97      1115
+   macro avg       0.93      0.92      0.92      1115
+weighted avg       0.96      0.97      0.96      1115
+
+
+-----------------
+swr.pickle
+Test Loss: 0.357 | Test Acc: 95.37%
+              precision    recall  f1-score   support
+
+         ham       0.97      0.98      0.97       966
+        spam       0.86      0.78      0.82       149
+
+    accuracy                           0.95      1115
+   macro avg       0.91      0.88      0.90      1115
+weighted avg       0.95      0.95      0.95      1115
+
+
+-----------------
+freq_rare_word_rm.pickle
+Test Loss: 0.415 | Test Acc: 87.61%
+              precision    recall  f1-score   support
+
+         ham       0.88      1.00      0.93       966
+        spam       0.85      0.11      0.20       149
+
+    accuracy                           0.88      1115
+   macro avg       0.86      0.56      0.57      1115
+weighted avg       0.88      0.88      0.84      1115
+
+
+-----------------
+stemmed.pickle
+Test Loss: 0.441 | Test Acc: 87.23%
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/ammer/miniconda3/envs/TuNlp/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+
+         ham       0.87      1.00      0.93       966
+        spam       0.00      0.00      0.00       149
+
+    accuracy                           0.87      1115
+   macro avg       0.43      0.50      0.46      1115
+weighted avg       0.75      0.87      0.80      1115
+
+
+-----------------
+lemmatized.pickle
+Test Loss: 0.372 | Test Acc: 93.92%
+              precision    recall  f1-score   support
+
+         ham       0.96      0.97      0.97       966
+        spam       0.78      0.76      0.77       149
+
+    accuracy                           0.94      1115
+   macro avg       0.87      0.86      0.87      1115
+weighted avg       0.94      0.94      0.94      1115
+
+
+-----------------

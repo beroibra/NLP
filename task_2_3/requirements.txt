@@ -1,0 +1,17 @@
+numpy
+scipy
+flair
+transformers
+sklearn
+matplotlib
+pandas
+scikit-learn
+emoji
+spacy
+nltk
+sister[bert]
+sentence-transformers
+sent2vec
+torch
+textblob
+seaborn
